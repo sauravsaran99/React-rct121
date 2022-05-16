@@ -1,0 +1,33 @@
+
+.mainbox {
+    padding: 30px;
+}
+
+.secmainbox {
+    display: flex;
+    width: 45%;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.mainsec {
+    margin-right: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}

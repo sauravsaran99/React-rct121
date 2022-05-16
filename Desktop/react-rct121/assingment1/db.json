@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "id":1,
+            "avatar":"https://i.pinimg.com/736x/ef/b4/56/efb4563befb0ae1bed74f004785f3f0f.jpg",
+            "name": "Annette Murphy",
+            "email": "sara.mitachell@example.com",
+            "phone": "+0849726273"     
+        },
+        {
+            "id":2,
+            "avatar":"https://images.all-free-download.com/images/graphiclarge/girl_avatar_template_handdrawn_cartoon_character_sketch_6849754.jpg",
+            "name": "Murphy",
+            "email": "sara.mitachell@example.com",
+            "phone": "+0849726273"     
+        },
+        {
+            "id":3,
+            "avatar":"https://i.pinimg.com/736x/ef/b4/56/efb4563befb0ae1bed74f004785f3f0f.jpg",
+            "name": "Cody Murphy",
+            "email": "glen.mitachell@example.com",
+            "phone": "+0849726273"     
+        },
+        {
+            "id":4,
+            "avatar":"https://images.all-free-download.com/images/graphiclarge/girl_avatar_template_handdrawn_cartoon_character_sketch_6849754.jpg",
+            "name": "Annette Murphy",
+            "email": "sara.mitachell@example.com",
+            "phone": "+0849726273"     
+        },
+        {
+            "id":5,
+            "avatar":"https://images.all-free-download.com/images/graphiclarge/girl_avatar_template_handdrawn_cartoon_character_sketch_6849754.jpg",
+            "name": "Annette Murphy",
+            "email": "sara.mitachell@example.com",
+            "phone": "+0849726273"     
+        },
+        {
+            "id":6,
+            "avatar":"https://i.pinimg.com/736x/ef/b4/56/efb4563befb0ae1bed74f004785f3f0f.jpg",
+            "name": "Annette Murphy",
+            "email": "sara.mitachell@example.com",
+            "phone": "+0849726273"     
+        }
+    ]
+}
