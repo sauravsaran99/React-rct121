@@ -11,7 +11,13 @@ export const User = () => {
     }, [])
 
     const changeClass = (id) => {
-        setValueid(id)
+
+        if(id == valueid) {
+            setValueid(null)
+        } else {
+            setValueid(id)
+        }
+        
     }
 
     console.log('id', valueid)
