@@ -1,0 +1,118 @@
+
+
+.mainrespage {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+}
+
+.datashowfirst {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(195, 195, 195);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.formsfirst {
+    width: 30%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+form {
+    margin: 50px auto;
+    width: 70%;
+}
+
+.filter {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.star {
+    margin: 5px 10px;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.mainBox {
+    display: flex;
+    /* background-color: orange; */
+    width: 90%;
+    height: 160px;
+    margin: 10px 10px 0 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #fff;
+
+}
+
+.secondmain {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.rating {
+    width: 36%;
+    background-color: rgb(114,160,43);
+    margin: 6px 0;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonorder {
+    display: flex;
+    justify-content: end;
+    /* background-color: orange; */
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #fff;
+    margin-top: 2px;
+}
+
+button {
+    background-color: rgb(173, 209, 120);
+    border: none;
+}
+
+.firstratevot {
+    width: 70%;
+    height: 100%;
+}
+
+.ratevot {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    margin: 10px;
+}
+
+h3 {
+    margin: 10px 0 30px 0;
+    font-size: 15px;
+    color: brown;
+}
+
+div {
+    font-size: 13px;
+    color: rgb(53, 53, 53);
+}
