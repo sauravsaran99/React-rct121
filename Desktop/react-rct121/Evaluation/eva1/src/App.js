@@ -6,7 +6,7 @@ import "./styles.css";
 export default function App() {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
-  const [sort, setSort] = useState('asc')
+  const [sort, setSort] = useState('ASC')
   useEffect(() => {
     console.log(sort)
     setData([]);
@@ -30,7 +30,7 @@ export default function App() {
     <div className="App">
       <div>
         {data.length === 0?<div id="loading-container">...Loading</div>:""}
-        {sort== 'asc'?<button onClick={() => setSort('desc')} id="SORT_BUTTON" title={`Sort by Ascending Salary`} >Sort by Descending Salary</button>:<button onClick={() => setSort('asc')} id="SORT_BUTTON" title={`Sort by Ascending Salary`} >Sort by Ascending Salary</button>}
+        {sort== 'ASC'?<button onClick={() => setSort('DESC')} id="SORT_BUTTON" title={`Sort by Ascending Salary`} >Sort by Descending Salary</button>:<button onClick={() => setSort('ASC')} id="SORT_BUTTON" title={`Sort by Ascending Salary`} >Sort by Ascending Salary</button>}
         {page == 1?<button title="PREV" id="PREV" disabled="disabled">PREV</button>:<button title="PREV" onClick={() => setPage(page-1)} id="PREV">PREV</button>}
         <button onClick={() => setPage(page+1)}   id="NEXT" title="NEXT" >NEXT</button>
       </div>
