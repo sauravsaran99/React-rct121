@@ -1,0 +1,15 @@
+
+
+.flexdesign {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.child {
+    padding: 10px;
+    cursor:pointer
+}
