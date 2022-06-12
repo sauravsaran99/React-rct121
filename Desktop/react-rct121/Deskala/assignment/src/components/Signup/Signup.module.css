@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.deskaltext {
+    margin: 80px auto 20px auto;
+    width: 170px;
+    font-weight: bold;
+    color: rgb(67,176,239);
+}
+
+.signupbold {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.signupform {
+    margin: 0 auto;
+    width: 320px;
+    padding: 0 30px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    /* background-color: red; */
+}
+
+.signuptext {
+    width: 60px;
+    padding: 30px 0;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+    height: 28px;
+    width: 100%;
+    margin: 3px 0 7px 0;
+    padding: 0 10px;
+}
+
+button {
+    display: block;
+    width: 100px;
+    padding: 10px 0;
+    border: none;
+    background-color: #fff;
+    border-radius: 3px;
+    background-color: rgb(67,176,239);
+    margin: 70px auto;
+    color: #fff;
+}
