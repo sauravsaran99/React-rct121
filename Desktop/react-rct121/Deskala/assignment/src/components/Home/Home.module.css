@@ -1,0 +1,61 @@
+
+
+.mainhomebox {
+    width: 40%;
+    min-height: 300px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.totalstudent {
+    height: 10%;
+    background-color: yellow;
+}
+
+.datamap {
+    min-height: 75%;
+    background-color: blue;
+}
+
+.addstudent {
+    display: flex;
+    height: 15%;
+    padding: 0 15px;
+    align-items: center;
+    color: rgb(67,176,239);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form {
+    width: 500px;
+    height: 400px;
+    background-color: paleturquoise;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.cross {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.formtwo {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.signupbold {
+    font-weight: bold;
+}
