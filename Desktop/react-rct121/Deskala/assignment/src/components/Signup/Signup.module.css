@@ -48,6 +48,10 @@ input {
     padding: 0 10px;
 }
 
+form {
+    display: block;
+}
+
 button {
     display: block;
     width: 100px;

@@ -1,0 +1,13 @@
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.logout {
+    cursor: pointer;
+}

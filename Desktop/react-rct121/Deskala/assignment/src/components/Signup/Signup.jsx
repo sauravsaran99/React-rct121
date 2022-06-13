@@ -23,7 +23,7 @@ export const Signup = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if( userData.phone.length !== 10) {
-            return setError('Phone number should must be 10 digits')
+            return setError('Phone number should be 10 digits')
         } else {
         axios.post('http://localhost:8080/signup', userData).then((res) => {
             if(res.data.errors) {

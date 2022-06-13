@@ -1,7 +1,7 @@
 
 
 .mainhomebox {
-    width: 40%;
+    width: 45%;
     min-height: 300px;
     margin: 0;
     position: absolute;
@@ -11,30 +11,105 @@
     transform: translate(-50%, -50%);
 }
 
-.totalstudent {
-    height: 10%;
-    background-color: yellow;
+#dropdown {
+    border: none;
+    background-color: rgba(95, 220, 237, 0);
+    outline: none;
 }
 
+#dropdown2 {
+    border: none;
+    outline: none;
+}
+
+.totalstudent {
+    height: 10%;
+    font-weight: bold;
+    padding: 7px 0;
+}
+
+.Name {
+    padding-left: 30px;
+    flex: .21;
+    font-weight: bold;
+}
+
+.Email {
+    flex: .33;
+    font-weight: bold;
+}
+
+.Birth {
+    flex: .25;
+    font-weight: bold;
+}
+
+.Result {
+    flex: .3;
+    font-weight: bold;
+}
 .datamap {
     min-height: 75%;
-    background-color: blue;
+    display: flex;
+    margin: 3px 0;
+    padding: 4px 4px;
+    background-color: rgba(95, 220, 237, 0.244);
+}
+
+.datamap2 {
+    min-height: 75%;
+    display: flex;
+    margin: 3px 0;
+    padding: 4px 4px;
+}
+
+
+.index {
+    flex: .3;
+}
+
+.name {
+    flex: 1.5;
+}
+
+.birth {
+    flex: 1.5
+}
+
+.result {
+    flex: .2;
+}
+
+.email {
+    flex: 2;
+}
+
+.designlogo {
+    flex: .4;
+    padding: 0 10px;
 }
 
 .addstudent {
     display: flex;
     height: 15%;
-    padding: 0 15px;
+    width: 194px;
+    padding: 9px 15px;
     align-items: center;
     color: rgb(67,176,239);
     font-weight: bold;
     cursor: pointer;
 }
 
+.buttonflex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .form {
-    width: 500px;
+    width: 800px;
     height: 400px;
-    background-color: paleturquoise;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -52,10 +127,31 @@
 }
 
 .formtwo {
-    width: 50%;
+    width: 60%;
     margin: 50px auto;
+}
+h3 {
+    margin: 10px 0 30px 0;
+}
+
+#formfinal {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .signupbold {
     font-weight: bold;
+    cursor: pointer;
+}
+
+.signupbold1 {
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid rgb(67,176,239);
+    /* margin: 0px 10px; */
+    margin-right: 15px;
+    cursor: pointer;
 }

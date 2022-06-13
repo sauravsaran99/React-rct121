@@ -33,6 +33,10 @@
     /* background-color: red; */
 }
 
+form {
+    display: block;
+}
+
 .signuptext {
     width: 60px;
     padding: 30px 0;
